@@ -33,7 +33,8 @@
               <div class="item-title item-label">Description</div>
               <div class="item-input-wrap">
                 <textarea placeholder="Description" name="descriptionliste"></textarea>
-                <input type="submit" class="col button button-large button-fill button-raised" value="Créer" name="creerliste" onclick="senddata()"/>
+                <a href="/ajoutertache/" class="col button button-large button-fill button-raised" value="Créer" name="creerliste">Créer</a>
+               <!-- <input type="submit" class="col button button-large button-fill button-raised" value="Créer" name="creerliste"/>--> 
               </div>
             </div>
           </div>

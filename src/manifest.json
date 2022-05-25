@@ -5,36 +5,36 @@
   "lang": "en-US",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#EE350F",
-  "theme_color": "#EE350F",
+  "background_color": "#AA3939",
+  "theme_color": "#AA3939",
   "icons": [
     {
-      "src": "/icons/128x128.png",
+      "src": "/icons/mushu.jpg",
       "sizes": "128x128",
       "type": "image/png"
     },
     {
-      "src": "/icons/144x144.png",
+      "src": "/icons/mushu.jpg",
       "sizes": "144x144",
       "type": "image/png"
     },
     {
-      "src": "/icons/152x152.png",
+      "src": "/icons/mushu.jpg",
       "sizes": "152x152",
       "type": "image/png"
     },
     {
-      "src": "/icons/192x192.png",
+      "src": "/icons/mushu.jpg",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/icons/256x256.png",
+      "src": "/icons/mushu.jpg",
       "sizes": "256x256",
       "type": "image/png"
     },
     {
-      "src": "/icons/512x512.png",
+      "src": "/icons/mushu.jpg",
       "sizes": "512x512",
       "type": "image/png"
     }

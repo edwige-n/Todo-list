@@ -6,7 +6,7 @@
       <div class="navbar-inner">
         <div class="title sliding">To do list</div>
         <div class="right">
-          <a href="#" class="link icon-only panel-open" data-panel="right">
+          <a href="#" class="link icon-only panel-open " data-panel="right">
             <i class="icon f7-icons if-not-md">menu</i>
             <i class="icon material-icons if-md">menu</i>
           </a>
@@ -19,7 +19,6 @@
     <!-- Toolbar-->
     <div class="toolbar toolbar-bottom">
       <div class="toolbar-inner">
-        <a href="#" class="link">Left Link</a>
         <a href="#" class="link">Right Link</a>
       </div>
     </div>
@@ -52,10 +51,10 @@
       <div class="block block-strong">
         <div class="row">
           <div class="col-50">
-            <a href="#" class="button button-raised button-fill popup-open" data-popup="#my-popup">Popup</a>
+            <a href="#" class="button button-raised button-fill popup-open color-red" data-popup="#my-popup">Popup</a>
           </div>
           <div class="col-50">
-            <a href="#" class="button button-raised button-fill login-screen-open" data-login-screen="#my-login-screen">Login Screen</a>
+            <a href="#" class="button button-raised button-fill login-screen-open color-green" data-login-screen="#my-login-screen">Login Screen</a>
           </div>
         </div>
       </div> 

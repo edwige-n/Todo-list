@@ -3,7 +3,7 @@
   "type": [
     "pwa"
   ],
-  "name": "My App",
+  "name": "Ma To do liste",
   "framework": "core",
   "template": "single-view",
   "bundler": "vite",

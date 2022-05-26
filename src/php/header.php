@@ -8,11 +8,11 @@ try {
    
     retour_json(false, "Connexion à la base de données impossible"); 
 }
-function retour_json($success, $msg, $results=NULL)
+function retour_json($success, $results, $msg=NULL)
 {
     $retour["success"] = $success; 
     $retour["message"] = $msg; 
     $retour["results"] = $results; 
-    echo json_encode($retour); 
+    echo json_encode($results); 
 }
 ?>

@@ -33,3 +33,4 @@ var app = new Framework7({
     path: '/service-worker.js',
   } : {},
 });
+

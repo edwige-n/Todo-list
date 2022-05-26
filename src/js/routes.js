@@ -1,4 +1,4 @@
-
+import IndexPage from'../pages/index.f7';
 import HomePage from '../pages/home.f7';
 import AboutPage from '../pages/about.f7';
 import FormPage from '../pages/form.f7';
@@ -12,6 +12,10 @@ import NotFoundPage from '../pages/404.f7';
 var routes = [
   {
     path: '/',
+    component: IndexPage,
+  },
+  {
+    path: '/home/',
     component: HomePage,
   },
   {

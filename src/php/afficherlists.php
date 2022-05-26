@@ -22,6 +22,4 @@ if( !empty($_GET['listname']) ){
        $success = false; 
        $msg = "Il y un problème...";
    } 
-retour_json($success, $msg, $results);
 
-?>

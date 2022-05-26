@@ -1,4 +1,4 @@
-# My App
+# ToDoListe
 
 ## Framework7 CLI Options
 
@@ -10,7 +10,7 @@ Framework7 app created with following options:
   "type": [
     "pwa"
   ],
-  "name": "My App",
+  "name": "ToDoListe",
   "framework": "core",
   "template": "single-view",
   "bundler": "vite",

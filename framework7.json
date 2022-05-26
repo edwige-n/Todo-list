@@ -3,13 +3,13 @@
   "type": [
     "pwa"
   ],
-  "name": "My App",
+  "name": "Ma To do liste",
   "framework": "core",
   "template": "single-view",
   "bundler": "vite",
   "cssPreProcessor": "less",
   "theming": {
-    "customColor": false,
+    "customColor": true,
     "color": "#007aff",
     "darkTheme": true,
     "iconFonts": true,

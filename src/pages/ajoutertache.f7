@@ -1,0 +1,93 @@
+<template>
+    <div class="page" data-name="ajoutertache">
+      <div class="navbar">
+        <div class="navbar-bg"></div>
+        <div class="navbar-inner sliding">
+          <div class="left">
+            <a href="#" class="link back">
+              <i class="icon icon-back"></i>
+              <span class="if-not-md">retour</span>
+            </a>
+          </div>
+          <div class="title">Créer une tâche</div>
+        </div>
+      </div>
+      <div class="page-content">
+        <div class="block-title">Information de la liste</div>
+        <div class="list no-hairlines-md">
+          <ul>
+            <li>
+              <div class="item-content item-input">
+                <div class="item-inner">
+                  <div class="item-title item-label">Nom de l'utilisateur</div>
+                  <div class="item-input-wrap">
+                    <input type="text" ${liste.liste} placeholder="username"/>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="item-content item-input">
+                <div class="item-inner">
+                  <div class="item-title item-label">1er tâche</div>
+                  <div class="item-input-wrap">
+                    <input placeholder="1ère Tache"/>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="item-content item-input">
+                <div class="item-inner">
+                  <div class="item-title item-label">2ème tâche</div>
+                  <div class="item-input-wrap">
+                    <input  placeholder="2ème tache"/>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="item-content item-input">
+                <div class="item-inner">
+                  <div class="item-title item-label">3ème tâche</div>
+                  <div class="item-input-wrap">
+                    <input type="password" placeholder="Password"/>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="item-content item-input">
+                <div class="item-inner">
+                  <div class="item-title item-label">4èmetâche</div>
+                  <div class="item-input-wrap">
+                    <input type="tel" placeholder="tache"/>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="item-content item-input">
+                <div class="item-inner">
+                  <div class="item-title item-label">5ème tâche</div>
+                  <div class="item-input-wrap">
+                    <input type="date" placeholder="tache" />
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div class="item-input-wrap">
+            <textarea placeholder="Description" name="descriptionliste"></textarea>
+            <a href="/save/" class="col button button-large button-fill button-raised" value="save" name="save">Sauvegarder</a>
+           <!-- <input type="submit" class="col button button-large button-fill button-raised" value="Créer" name="creerliste"/>--> 
+          </div>
+        </div>
+      </div>
+    </div>
+    </template>
+    <script>
+    export default () => {
+      return $render;
+    };
+    </script>

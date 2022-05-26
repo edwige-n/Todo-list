@@ -19,7 +19,7 @@
             <li>
               <div class="item-content item-input">
                 <div class="item-inner">
-                  <div class="item-title item-label">Nom de la liste</div>
+                  <div class="item-title item-label">Nom de l'utilisateur</div>
                   <div class="item-input-wrap">
                     <input type="text" placeholder="Nom de la liste"/>
                   </div>

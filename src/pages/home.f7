@@ -1,11 +1,12 @@
 <template>
   <div class="page" data-name="home">
     <!-- Top Navbar -->
-    <div class="navbar navbar-large">
+    <div class="navbar navbar-large" >
       <div class="navbar-bg"></div>
       <div class="navbar-inner">
         <div class="title sliding">To do list</div>
         <div class="right">
+          <img src="../../icons/mushu.png"/>
           <a href="#" class="link icon-only panel-open " data-panel="right">
             <i class="icon f7-icons if-not-md">menu</i>
             <i class="icon material-icons if-md">menu</i>
@@ -24,7 +25,7 @@
     </div>
     <!-- Scrollable page content-->
     <div class="page-content">
-      <div class="block block-strong">
+      <div class="text-align-center">
         <p>Bienvenue sur to do list! </p>
       </div>
       <div class="block-title">Navigation</div>
@@ -54,7 +55,7 @@
             <a href="#" class="button button-raised button-fill popup-open color-yellow" data-popup="#my-popup">Vos listes</a>
           </div>
           <div class="col-50">
-            <a href="#" class="button button-raised button-fill login-screen-open color-green" data-login-screen="#my-login-screen">Connexion</a>
+            <a href="#" class="button button-raised button-fill login-screen-open" data-login-screen="#my-login-screen" style="background-color: #FF6A33;">Connexion</a>
           </div>
         </div>
       </div> 

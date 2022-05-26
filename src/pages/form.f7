@@ -15,14 +15,14 @@
   <div class="page-content">
     <div class="block-title">Nouvelle liste de tâches</div>
     <div class="list no-hairlines-md">
-      <form class="list form-store-data" id="my-form" method="post">
+      <form class="list form-store-data" id="my-form" method="GET" action="/ajoutertache/">
       <ul>
         <li>
           <div class="item-content item-input">
             <div class="item-inner">
               <div class="item-title item-label">Nom de la liste</div>
               <div class="item-input-wrap">
-                <input type="text" placeholder="Nom de la liste" name="listname"/>
+                <input type="text" placeholder="Nom de la liste" name="listname" id="listename"/>
               </div>
             </div>
           </div>
@@ -30,7 +30,7 @@
         <li class="align-top">
           <div class="item-content item-input">
             <div class="item-inner">
-              <div class="item-title item-label">Description</div>
+              <div class="item-title item-label" id="descriptionliste">Description</div>
               <div class="item-input-wrap">
                 <textarea placeholder="Description" name="descriptionliste"></textarea>
                 <a href="/ajoutertache/" class="col button button-large button-fill button-raised" value="Créer" name="creerliste">Créer</a>

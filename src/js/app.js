@@ -19,7 +19,7 @@ import App from '../app.f7';
 
 
 var app = new Framework7({
-  name: 'My App', // App name
+  name: 'To Do Liste', // App name
   theme: 'auto', // Automatic theme detection
   el: '#app', // App root element
   component: App, // App main component

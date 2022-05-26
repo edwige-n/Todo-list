@@ -13,7 +13,7 @@
         </div>
       </div>
       <div class="page-content">
-        <div class="block-title">Nom liste à mettre </div>
+        <div class="block-title">Information de la liste</div>
         <div class="list no-hairlines-md">
           <ul>
             <li>
@@ -31,7 +31,7 @@
                 <div class="item-inner">
                   <div class="item-title item-label"></div>
                   <div class="item-input-wrap">
-                    <input type="email" placeholder="E-mail"/>
+                    <input placeholder="1ère Tache"/>
                   </div>
                 </div>
               </div>
@@ -39,9 +39,9 @@
             <li>
               <div class="item-content item-input">
                 <div class="item-inner">
-                  <div class="item-title item-label">URL</div>
+                  <div class="item-title item-label">2ème tache</div>
                   <div class="item-input-wrap">
-                    <input type="url" placeholder="URL"/>
+                    <input  placeholder="2ème tache"/>
                   </div>
                 </div>
               </div>
@@ -89,8 +89,12 @@
                 </div>
               </div>
             </li>
-
           </ul>
+          <div class="item-input-wrap">
+            <textarea placeholder="Description" name="descriptionliste"></textarea>
+            <a href="/save/" class="col button button-large button-fill button-raised" value="save" name="save">Sauvegarder</a>
+           <!-- <input type="submit" class="col button button-large button-fill button-raised" value="Créer" name="creerliste"/>--> 
+          </div>
         </div>
       </div>
     </div>
